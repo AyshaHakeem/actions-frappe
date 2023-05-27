@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-26 12:56:57.787007",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "is_complete"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_complete",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Complete"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-05-26 12:56:57.787007",
+ "modified_by": "Administrator",
+ "module": "Frappe Actions",
+ "name": "Action Tasks",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
