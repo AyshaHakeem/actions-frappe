@@ -15,3 +15,5 @@ app.use(resourcesPlugin)
 
 app.component('Button', Button)
 app.mount('#app')
+
+app.config.unwrapInjectedRef = true

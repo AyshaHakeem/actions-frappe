@@ -8,7 +8,7 @@ const routes = [
   },
   {
     path: '/actions/:name',
-    component: ()=> import('@/pages/ActionsDetail.vue'),
+    component: ()=> import('@/pages/ActionDetails.vue'),
     props: true
   }
 ]

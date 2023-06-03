@@ -20,6 +20,9 @@
               v-for="action in actions.data"
               :key="action.title">
                 <span> {{ action.title }} - {{ action.status }} </span>
+
+                <router-link :to="`/actions/${action.name}`">{{ action.title }}</router-link>
+
                 <Button icon="check" @click="completeAction(action.name)" />
             </li>
           </ul>
